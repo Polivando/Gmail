@@ -11,7 +11,7 @@ namespace GmailTest
 {
     public class GmailTest
     {
-        //static MailPage mail;
+        static MailPage mail;
 
         static LogonPage logon;
 
@@ -42,10 +42,10 @@ namespace GmailTest
                  * 1.1 wait for the page    OK
                  * 2. click "write"         OK
                  * 3. To = to;              OK
-                 * 4. click "attach file"
-                 * 5. select file
-                 * 6. click OK
-                 * 7. click "send"
+                 * 4. click "attach file"   OK
+                 * 5. select file           OK
+                 * 6. click OK              OK
+                 * 7. click "send"          OK
                  * 8. open sent
                  * 9. select first message
                  * 10. check for attach
@@ -55,22 +55,23 @@ namespace GmailTest
             string[] credentials = File.ReadAllLines(General.credential);
             file = credentials[2];
             Initialize();
-                var text = logon.Login(credentials[0], credentials[1])
-                .WriteEmail(credentials[0], file)
-                .CheckSent()
-                .AttathArea.Text;
-            int errors = 0;
-            foreach (var item in General.keys)
-                if (!text.Contains(item))
-                    errors++;
-            if (errors == General.keys.Length)
-            {
-                General.WriteLog("No attachments in mail");
-                General.WriteLog("Test failed");
-                throw new Exception();
-            }
-            General.WriteLog("Test passed");
-            Clean();
+            logon.Login(credentials[0], credentials[1]).WriteAndSendEmail(credentials[0], file);
+            Thread.Sleep(500);
+            mail = new MailPage();
+            mail.CheckSent();
+                //.AttathArea.Text;
+            //int errors = 0;
+            //foreach (var item in General.keys)
+            //    if (!text.Contains(item))
+            //        errors++;
+            //if (errors == General.keys.Length)
+            //{
+            //    General.WriteLog("No attachments in mail");
+            //    General.WriteLog("Test failed");
+            //    throw new Exception();
+            //}
+            //General.WriteLog("Test passed");
+            //Clean();
         }
     }
 }

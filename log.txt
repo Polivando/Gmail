@@ -39,3 +39,141 @@ Writing message
 Reading credentials and file path from file
 Opening driver
 Logging in
+14.10.2015 20:25:33 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+14.10.2015 20:28:49 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+14.10.2015 20:29:49 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+14.10.2015 20:31:52 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
+14.10.2015 20:32:59 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
+14.10.2015 20:34:04 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
+14.10.2015 20:47:23 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+14.10.2015 20:49:35 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+14.10.2015 20:50:21 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+14.10.2015 20:51:21 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
+14.10.2015 20:59:14 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
+14.10.2015 20:59:51 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
+14.10.2015 21:02:25 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
+14.10.2015 21:05:08 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
+14.10.2015 21:05:56 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
+14.10.2015 21:08:04 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
+14.10.2015 21:10:53 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
+14.10.2015 21:11:43 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
+14.10.2015 21:13:36 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
+14.10.2015 21:22:11 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
+14.10.2015 21:29:39 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
