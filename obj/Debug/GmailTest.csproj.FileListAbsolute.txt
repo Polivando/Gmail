@@ -1,0 +1,14 @@
+N:\Polina\GmailTest\bin\Debug\GmailTest.exe.config
+N:\Polina\GmailTest\obj\Debug\GmailTest.csprojResolveAssemblyReference.cache
+N:\Polina\GmailTest\bin\Debug\chromedriver-license.txt
+N:\Polina\GmailTest\bin\Debug\GmailTest.exe
+N:\Polina\GmailTest\bin\Debug\GmailTest.pdb
+N:\Polina\GmailTest\bin\Debug\nunit.framework.dll
+N:\Polina\GmailTest\bin\Debug\WebDriver.dll
+N:\Polina\GmailTest\bin\Debug\WebDriver.Support.dll
+N:\Polina\GmailTest\bin\Debug\nunit.framework.xml
+N:\Polina\GmailTest\bin\Debug\WebDriver.xml
+N:\Polina\GmailTest\bin\Debug\WebDriver.Support.xml
+N:\Polina\GmailTest\obj\Debug\GmailTest.exe
+N:\Polina\GmailTest\obj\Debug\GmailTest.pdb
+N:\Polina\GmailTest\bin\Debug\chromedriver.exe

@@ -1,0 +1,41 @@
+14.10.2015 16:14:05 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Test failed: unknown error: unrecognized Blink revision: 3b3c00f2d95c45cca18ab944acced413fb759311
+  (Driver info: chromedriver=2.10.267521,platform=Windows NT 6.1 SP1 x86_64)
+14.10.2015 16:15:07 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Test failed: unknown error: unrecognized Blink revision: 3b3c00f2d95c45cca18ab944acced413fb759311
+  (Driver info: chromedriver=2.10.267521,platform=Windows NT 6.1 SP1 x86_64)
+14.10.2015 16:16:44 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+14.10.2015 16:18:23 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+14.10.2015 16:44:21 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+14.10.2015 16:45:39 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+14.10.2015 16:58:47 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+14.10.2015 17:02:47 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+14.10.2015 17:08:29 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+14.10.2015 17:35:00 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
