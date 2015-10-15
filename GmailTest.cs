@@ -46,8 +46,8 @@ namespace GmailTest
                  * 5. select file           OK
                  * 6. click OK              OK
                  * 7. click "send"          OK
-                 * 8. open sent
-                 * 9. select first message
+                 * 8. open sent             OK
+                 * 9. select first message  OK
                  * 10. check for attach
                  * */
             General.WriteLog(DateTime.Now.ToString() + " Performing test for gmail attachments");
@@ -58,8 +58,7 @@ namespace GmailTest
             logon.Login(credentials[0], credentials[1]).WriteAndSendEmail(credentials[0], file);
             Thread.Sleep(500);
             mail = new MailPage();
-            mail.CheckSent();
-                //.AttathArea.Text;
+            var text = mail.CheckSent().AttathArea.Text;
             //int errors = 0;
             //foreach (var item in General.keys)
             //    if (!text.Contains(item))

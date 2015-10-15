@@ -31,6 +31,8 @@ namespace GmailTest
         [FindsBy(How = How.XPath, Using = "//*[contains(@class, 'ae4') and contains(@class,'UI') and @gh='tl']//*[contains(@class,'zA') and contains(@class,'yO')][1]")]
         public IWebElement First { get; set; }
 
+        [FindsBy(How = How.XPath, Using = "//*[contains(@class, 'ag') and contains(@class, 'a8k')]")]
+        public IWebElement SentAlert { get; set; }
 
         [FindsBy(How = How.XPath, Using = "//*[contains(@class, 'hq') and contains(@class, 'gt')]")]
         public IWebElement AttathArea { get; set; }
@@ -60,9 +62,13 @@ namespace GmailTest
         public MailPage CheckSent()
         {
             General.WriteLog("Opening first sent message");
-            Sent.Click();
+            //Sent.Click();
+            Thread.Sleep(1000);
             var temp = new MailPage();
-            temp.First.Click();
+            SentAlert.Click();
+            //var alert = new WebDriverWait(General.driver, TimeSpan.FromSeconds(20)).Until<IWebElement>((d) => { return d.FindElement(By.Id("link-vsm")); });
+            //alert.Click();
+            //temp.First.Click();
             return new MailPage();
         }
     }

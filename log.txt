@@ -177,3 +177,59 @@ Logging in
 Writing message
 Attaching file and sending message
 Opening first sent message
+15.10.2015 21:12:08 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
+15.10.2015 21:23:11 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
+15.10.2015 21:25:39 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
+15.10.2015 21:28:49 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
+15.10.2015 21:31:13 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
+15.10.2015 21:49:06 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+15.10.2015 21:50:03 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
+15.10.2015 22:00:24 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+15.10.2015 22:09:26 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
