@@ -18,7 +18,7 @@ namespace GmailTest
 
         public static string[] keys = { "прикреплённых", "вкладених", "Attachments" };
 
-        public static void WriteLog(string text)
+        public static void WriteLog(string text = "")
         {
             string[] arr = new String[] { text };
             File.AppendAllLines(output, arr);

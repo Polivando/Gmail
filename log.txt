@@ -233,3 +233,47 @@ Reading credentials and file path from file
 Opening driver
 Logging in
 Writing message
+19.10.2015 17:14:11 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
+19.10.2015 18:00:14 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
+No attachments in mail
+Test failed
+19.10.2015 18:04:10 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
+General.cs
+No attachments in mail
+Test failed
+19.10.2015 18:09:37 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
+General.cs
+Test passed
+19.10.2015 18:13:29 Performing test for gmail attachments
+Reading credentials and file path from file
+Opening driver
+Logging in
+Writing message
+Attaching file and sending message
+Opening first sent message
+Test passed
+

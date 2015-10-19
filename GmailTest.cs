@@ -15,8 +15,6 @@ namespace GmailTest
 
         static LogonPage logon;
 
-        static string file = "";
-
         static void Initialize()
         {
             General.WriteLog("Opening driver");
@@ -53,24 +51,20 @@ namespace GmailTest
             General.WriteLog(DateTime.Now.ToString() + " Performing test for gmail attachments");
             General.WriteLog("Reading credentials and file path from file");
             string[] credentials = File.ReadAllLines(General.credential);
-            file = credentials[2];
             Initialize();
-            logon.Login(credentials[0], credentials[1]).WriteAndSendEmail(credentials[0], file);
-            Thread.Sleep(500);
+            logon.Login(credentials[0], credentials[1]).WriteAndSendEmail(credentials[0], credentials[2]);
+            Thread.Sleep(5000);
             mail = new MailPage();
-            var text = mail.CheckSent().AttathArea.Text;
-            //int errors = 0;
-            //foreach (var item in General.keys)
-            //    if (!text.Contains(item))
-            //        errors++;
-            //if (errors == General.keys.Length)
-            //{
-            //    General.WriteLog("No attachments in mail");
-            //    General.WriteLog("Test failed");
-            //    throw new Exception();
-            //}
-            //General.WriteLog("Test passed");
-            //Clean();
+            var text = mail.CheckSent().AttachArea.Text;
+            if (!text.Contains(credentials[3]))
+            {
+                General.WriteLog("Incorrect attachments in mail");
+                General.WriteLog("Test failed");
+                throw new Exception();
+            }
+            General.WriteLog("Test passed");
+            General.WriteLog();
+            Clean();
         }
     }
 }

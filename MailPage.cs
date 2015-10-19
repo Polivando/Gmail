@@ -35,7 +35,7 @@ namespace GmailTest
         public IWebElement SentAlert { get; set; }
 
         [FindsBy(How = How.XPath, Using = "//*[contains(@class, 'hq') and contains(@class, 'gt')]")]
-        public IWebElement AttathArea { get; set; }
+        public IWebElement AttachArea { get; set; }
 
         public MailPage()
         {
